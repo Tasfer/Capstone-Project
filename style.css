@@ -1,0 +1,140 @@
+      header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+  position: fixed;
+  height: 4rem;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.container1 {
+  width: 1200px;
+  height: 60%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+}
+
+.academy {
+  color: grey;
+}
+
+#content {
+  overflow: hidden;
+  height: 3.6em;
+  line-height: 1.2em;
+  width: 200px;
+}
+
+#navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+#navigation li:not(:first-child):before {
+  content: " | ";
+}
+
+.container {
+  flex-direction: row;
+}
+
+.div1 {
+  display: inline-flex;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+
+p {
+  color: white;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin: 0px 5%;
+}
+
+li {
+  border-right: 5px solid cadetblue;
+}
+
+li:last {
+  border-right: none
+}
+
+
+}
+.button cta-button {
+  display: flex;
+}
+nav li {
+  display: inline-block;
+  color: grey;
+  width: 60px;
+  padding-right: 23px;
+  text-align: center;
+  nav li {
+    display: inline;
+    margin-right: 25px;
+    padding-right: 25px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  .div1 {
+    display: inline-flex;
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+  }
+
+  .image 1 {
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      #image 1 img {
+        src="img style="height: 35%;
+        "src="https: //photos-1.dropbox.com/t/2/AACrM3OP0iEtkht--rhZUZDuz8_s8k9dw8qUrlcFUejNpQ/12/113135192/jpeg/32x32/1/_/1/2/information-orientation.jpg/EJu2rVcYwUEgAigC/GZSAU3MSCK7SLCV8nCrNSop2ocfwJgFOWEybqy2uNIw?size=1280x960&size_mode=3";}
+        #logo1 {
+          display: none;
+        }
+        #logo img {
+          src=https: //photos-4.dropbox.com/t/2/AACJKzWy4HfesJi1yMOX08vZ-JvWdvivt6xPRt8Z8PYEBw/12/113135192/jpeg/32x32/1/_/1/2/information-orientation-mobile.jpg/EJu2rVcYwUEgAigC/mc6YlzfATkzO29OOTdN_MkjZaYcxdFUhikWGmuCmmlk?size=1280x960&size_mode=3;}
+          #logo {
+            Display: block;
+          }
+        }
+      }
+      footer {
+        height: 100px;
+        color: white;
+        position: relative;
+        top: 150px;
+      }
+      footer li {
+        display: inline;
+      }
